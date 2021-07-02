@@ -22,7 +22,7 @@ def run():
 				s.sendto(data,addr)
 			print(i +" [PAKET] OTW KE TEMPAT TUJUAN PAKET")
 		except:
-			print("[PAKET] TOK TOK TOK PAKETNYA DARI JNT NIH!")
+			print("[PAKET] \033[31mTOK TOK TOK PAKETNYA DARI JNT NIH!")
 
 def run2():
 	data = random._urandom(16)
